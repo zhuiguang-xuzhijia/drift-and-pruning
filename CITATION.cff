@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "引用本仓库时，请连口径标记（实测/推断/待验假设）一起引。"
+title: "漂移的必然性与修剪定向：AI 漂移的阶跃本质与记忆修剪的定向作用"
+type: preprint
+authors:
+  - family-names: "许"
+    given-names: "致嘉"
+date-released: "2026-10-24"
+url: "https://github.com/zhuiguang-xuzhijia/drift-and-pruning"
+license: CC-BY-NC-4.0
+keywords:
+  - AI drift
+  - memory pruning
+  - long context
+  - LLM
+abstract: >
+  用 300 轮实测否证「AI 漂移是连续可缓解曲线」：漂移是「遗忘」与「填空」两个离散事件的叠加，
+  形状为阶跃加饱和。长上下文只延后掉落，不阻止掉落。既然遗忘不可避免，漂移方向由修剪规则决定
+  （分域 / 权重 / 絮语）。真人对话实测：权重≥0.6 条目 0/10 → 16/47，未分类 50.0% → 29.8%，
+  逐句保留率 76.6%。全部结论带口径标记，并自列边界。
