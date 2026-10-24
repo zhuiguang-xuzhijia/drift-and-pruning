@@ -1,8 +1,21 @@
 # 漂移的必然性与修剪定向
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23609506.svg)](https://doi.org/10.5281/zenodo.23609506)
+
 > **一句话**：漂移不能消除；但"忘什么、先想起什么"是可编程的 —— 而漂移的方向，就由这个程序决定。
 >
 > **The inevitability of drift — and steering it by memory pruning.**
+
+**引用 / Cite**
+
+```
+许致嘉. (2026). 漂移的必然性与修剪定向：AI 漂移的阶跃本质与记忆修剪的定向作用
+[Preprint]. Zenodo. https://doi.org/10.5281/zenodo.23609506
+```
+
+- Concept DOI（全部版本，**论文引这个**）：`10.5281/zenodo.23609506`
+- v1.0.1 版本 DOI：`10.5281/zenodo.23609507`
+
 
 ```
 口径标记 / Evidence tags：
