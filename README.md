@@ -101,6 +101,26 @@ python -X utf8 code/fact_log.py
 
 ---
 
+## 时间戳（第三方存档，不靠自己声明）
+
+```
+① git 提交时间      2026-10-24T11:46:30+08:00
+② 注解 tag v1.0     2026-10-24 11:36:43 +0800
+③ Software Heritage 存档完成：2026-10-24T03:51:11Z（UTC），状态 full
+   快照 de306ceb1959ec3a5319…
+   https://archive.softwareheritage.org/browse/origin/?origin_url=https://github.com/zhuiguang-xuzhijia/drift-and-pruning
+④ Wayback 快照      2026-10-24 03:51:11 UTC
+   https://web.archive.org/web/20261024035111/https://github.com/zhuiguang-xuzhijia/drift-and-pruning
+```
+
+`指纹.txt` = 每个文件 SHA256 + 整库 SHA256 + 提交号。
+它**不是**时间戳（自己提交的文件只能防事后改字，防不了整体重建）；
+真正的时间在 ③④ 与 GitHub 的提交记录里。
+
+> 判据：**自己能改的时间戳不是时间戳，是备注。**
+
+---
+
 ## License
 
 理论部分 **CC BY-NC 4.0**（署名—非商业性使用）。
